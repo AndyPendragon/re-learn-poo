@@ -1,7 +1,7 @@
 import java.time.Instant;
 
 public class Product{
-  String Id;
+  String id;
   ProductName productName;
   double quantity;
   double unitPricePerLiter;

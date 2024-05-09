@@ -6,7 +6,7 @@ public class ServiceStation {
   String name;
   List<Product> products;
   Instant lastUpdate;
-  String Location;
+  String location;
 
   public void supply(Product product, Instant supplyDate, double suppliedQuantity) {
     product.setLastSupplyDate(supplyDate);
